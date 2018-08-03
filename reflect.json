@@ -1,0 +1,28 @@
+[
+  {
+    "name" : "io.netty.channel.socket.nio.NioSocketChannel",
+    "methods" : [
+      { "name" : "<init>", "parameterTypes" : [] }
+    ]
+  },
+  {
+    "name" : "io.netty.channel.socket.nio.NioServerSocketChannel",
+    "methods" : [
+      { "name" : "<init>", "parameterTypes" : [] }
+    ]
+  },
+{"name" : "com.fasterxml.jackson.core.JsonFactory", "methods" : [{ "name" : "<init>", "parameterTypes" : [] }]},
+{"name" : "com.fasterxml.jackson.databind.ObjectMapper", "methods" : [{ "name" : "<init>", "parameterTypes" : [] }]},
+{"name" : "io.vertx.core.buffer.impl.BufferFactoryImpl", "methods" : [{ "name" : "<init>", "parameterTypes" : [] }]},
+{"name" : "io.vertx.core.impl.FutureFactoryImpl", "methods" : [{ "name" : "<init>", "parameterTypes" : [] }]},
+{"name" : "io.vertx.core.impl.launcher.commands.RunCommandFactory", "methods" : [{ "name" : "<init>", "parameterTypes" : [] }]},
+{"name" : "io.vertx.core.impl.launcher.commands.VersionCommandFactory", "methods" : [{ "name" : "<init>", "parameterTypes" : [] }]},
+{"name" : "io.vertx.core.impl.launcher.commands.BareCommandFactory", "methods" : [{ "name" : "<init>", "parameterTypes" : [] }]},
+{"name" : "io.vertx.core.impl.launcher.commands.ListCommandFactory", "methods" : [{ "name" : "<init>", "parameterTypes" : [] }]},
+{"name" : "io.vertx.core.impl.launcher.commands.StartCommandFactory", "methods" : [{ "name" : "<init>", "parameterTypes" : [] }]},
+{"name" : "io.vertx.core.impl.launcher.commands.StopCommandFactory", "methods" : [{ "name" : "<init>", "parameterTypes" : [] }]},
+{"name" : "io.vertx.core.streams.impl.PumpFactoryImpl", "methods" : [{ "name" : "<init>", "parameterTypes" : [] }]},
+{"name" : "io.vertx.core.impl.VertxFactoryImpl", "methods" : [{ "name" : "<init>", "parameterTypes" : [] }]},
+{"name" : "io.vertx.core.http.impl.WebSocketFrameFactoryImpl", "methods" : [{ "name" : "<init>", "parameterTypes" : [] }]}
+
+]
