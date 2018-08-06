@@ -13,7 +13,10 @@ public class App
     {
     	Vertx vertx = Vertx.vertx();
     	vertx.createHttpServer().requestHandler(req -> {
+    		// this doesn't work
     		req.response().setChunked(true);
+    		// this alternative works
+//    		req.response().putHeader("Content-Length", "16");
     		req.response().write(Buffer.buffer("Hi from buffer 2"));
     		req.response().end();
     	}).listen(9000);
